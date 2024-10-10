@@ -1,6 +1,6 @@
 {
-    "name": "dyaa/pushover",
-    "description": "Laravel 5 Pushover Package",
+    "name": "by-nativ/pushover",
+    "description": "Laravel 7 Pushover Package",
     "keywords": ["laravel", "pushover", "Real Time", "notification","Artisan","CLI","Command"],
     "license": "MIT",
     "version": "1.4.1",
@@ -14,11 +14,11 @@
     ],
     "require": {
         "php": ">=5.4.0",
-        "illuminate/support": "~5.0"
+        "illuminate/support": "*"
     },
     "autoload": {
-        "psr-0": {
-            "Dyaa\\Pushover\\": "src/"
+        "psr-4": {
+            "by-nativ\\Pushover\\": "src/"
         }
     },
     "minimum-stability": "stable"
